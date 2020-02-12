@@ -1,0 +1,39 @@
+
+@import "nav.css";
+@import "search.css";
+@import "animation.css";
+@import "content.css";
+@import "content-icons.css";
+@import "history.css";
+@import "photo-picked.css";
+
+body {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+.loading-icon {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 100px 0;
+}
+
+#topbutton {
+    visibility: hidden;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 0;
+    border-radius: 10px;
+}
+
+#topbutton:active {
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+

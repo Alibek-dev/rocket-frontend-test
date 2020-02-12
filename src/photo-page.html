@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo-page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <a href="#" id="topbutton"><img src="resourses/icons/topbutton.png" alt=""></a>
+
+    <nav class="nav-wrapper">
+        <div class="logo">
+            <a href="#"><img src="resourses/Vector.png" height="28" width="28" alt="logo"></a>
+            <a href="#" id="name">ImageStock</a>
+        </div>
+        <div class="nav-links">
+            <div onclick="openSearchBlock('box-search'); return false">
+                <a href="#"><img src="resourses/icons/search_24px.png" alt=""></a>
+                <a href="#">Поиск</a>
+            </div>
+            <div>
+                <a href="#"><img src="resourses/icons/favorite_24px.png" alt=""></a>
+                <a href="#">Избранное</a>
+            </div>
+            <div onclick="openHistoryBlock('box-history'); return false">
+                <a href="#"><img src="resourses/icons/history_24px.png" alt=""></a>
+                <a href="#">История поиска</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="box-search">
+        <div id="block-search" class="slideDown">
+            <div style="display: flex; justify-content: center">
+                <input type="text" placeholder="Поиск">
+            </div>
+            <hr>
+            <div class="shadow">
+                <div class="inquiries">
+                    <a href="#">Wallpapers</a>
+                    <a href="#">Textures & Patterns</a>
+                    <a href="#">Nature</a>
+                    <a href="#">Current</a>
+                    <a href="#">Events</a>
+                    <a href="#">Architecture</a>
+                    <a href="#">Business & Work</a>
+                    <a href="#">Film</a>
+                    <a href="#">Animals</a>
+                    <a href="#">Travel</a>
+                    <a href="#">Food & Drink</a>
+                    <a href="#">Spirituality</a>
+                    <a href="#">Experimental</a>
+                    <a href="#">People</a>
+                    <a href="#">Health</a>
+                    <a href="#">Arts & Culture</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="box-history">
+        <div id="block-history" class="slideDown">
+            <div>
+                <h2>Ваши запросы</h2>
+            </div>
+            <div class="history-inquiries">
+                <a href="#">Wallpapers</a>
+                <a href="#">Textures & Patterns</a>
+                <a href="#">Nature</a>
+                <a href="#">Current</a>
+                <a href="#">Events</a>
+                <a href="#">Architecture</a>
+                <a href="#">Business & Work</a>
+                <a href="#">Film</a>
+                <a href="#">Animals</a>
+                <a href="#">Travel</a>
+                <a href="#">Food & Drink</a>
+                <a href="#">Spirituality</a>
+                <a href="#">Experimental</a>
+                <a href="#">People</a>
+                <a href="#">Health</a>
+                <a href="#">Arts & Culture</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="block-photo-picked">
+        <div id="photo-darkened">
+            <img src="resourses/images/siyuan-0z0ZcjICFiM-unsplash.jpg" width="100%" alt="">
+        </div>
+        <div class="photo-picked">
+            <div class="photo-picked-header">
+                <div class="user">
+                    <div class="user-avatar">
+                        <img src="resourses/icons/user.png" width="45" alt="">
+                    </div>
+                    <div>
+                        <h2>firstName lastName</h2>
+                        <h3>@userLogin</h3>
+                    </div>
+                </div>
+                <div class="buttons-photo-picked">
+                    <img src="resourses/icons/favorites.png" alt="">
+                    <img src="resourses/icons/downloand.png" alt="">
+                </div>
+            </div>
+            <div class="photo-picked-image">
+                <img src="resourses/images/siyuan-0z0ZcjICFiM-unsplash.jpg" width="100%" alt="">
+                <img id="expand-icon" src="resourses/icons/Vector%20(Stroke).png" width="25" height="25" alt="">
+            </div>
+            <div class="tags-heading">
+                <h4>Похожие теги</h4>
+            </div>
+            <div class="tags">
+                <a href="#" class="tags-decor">Girl</a>
+                <a href="#" class="tags-decor">Woman</a>
+                <a href="#" class="tags-decor">Mood</a>
+                <a href="#" class="tags-decor">People</a>
+                <a href="#" class="tags-decor">Free Pictures</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pred-content">
+        <h2>Похожие фотографии</h2>
+        <a href="#">show more</a>
+    </div>
+
+    <div class="content">
+        <div class="gallery-column">
+            <div class="holder">
+                <img class="image" src="resourses/images/aaron-betts-pTJI7oCNbH8-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/alex-motoc-iHJ6z2M0URA-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/laurice-manaligod-9nd6ktJRg7A-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/ben-karpinski-EKbYkPzpAFI-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-column">
+            <div class="holder">
+                <img class="image" src="resourses/images/ben-ashby-_WQXBHsdhyE-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/chenk-li-oWtHVRgjgkY-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/roberts-aboltins-TCAut8GpH0E-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/dx-w-xRTcfB73E8U-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-column">
+            <div class="holder">
+                <img class="image" src="resourses/images/eddie-howell-mYh6bjPZvrs-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/harley-davidson-2S4FDh3AtGw-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/the-honest-company-oqmIM9bkAWQ-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+                <img class="image" src="resourses/images/patrick-boucher-yDv44ZYUys4-unsplash.jpg" alt="">
+                <div class="block">
+                    <div class="avatar"><img src="resourses/icons/user.png"  alt=""></div>
+                    <h2 class="user-name">firstName lastName</h2>
+                    <h3 class="user-login">@userLogin</h3>
+                    <div class="block-icons">
+                        <img src="resourses/icons/favorite_24px_rounded.png" alt="">
+                        <img src="resourses/icons/maximize.png" alt="">
+                        <img src="resourses/icons/download_24px_rounded.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
