@@ -1,12 +1,12 @@
 
-.content-icons-1, .content-icons-2 {
+.content-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 70px 0 40px 0;
 }
 
-.content-icons-1 img {
+.content-icons img {
     width: 24px;
     height: 24px;
     margin: 5px;

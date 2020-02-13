@@ -6,6 +6,7 @@
 @import "content-icons.css";
 @import "history.css";
 @import "photo-picked.css";
+@import "favorites.css";
 
 body {
     position: relative;

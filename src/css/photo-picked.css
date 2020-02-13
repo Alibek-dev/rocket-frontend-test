@@ -71,6 +71,7 @@
     position: absolute;
     bottom: 23%;
     right: 10%;
+    cursor: pointer;
 }
 
 .tags-heading {

@@ -1,0 +1,13 @@
+
+
+.favorites-header {
+    margin: 110px 0 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.favorites-header h2 {
+    color: black;
+    font-size: 72px;
+    margin: 0;
+}

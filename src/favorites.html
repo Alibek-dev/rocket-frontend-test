@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
-
+    <title>favorites</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -13,8 +12,8 @@
 
     <nav class="nav-wrapper">
         <div class="logo">
-            <a href="#"><img src="resourses/Vector.png" height="28" width="28" alt="logo"></a>
-            <a href="#" id="name">ImageStock</a>
+            <a href="home.html"><img src="resourses/Vector.png" height="28" width="28" alt="logo"></a>
+            <a href="home.html" id="name">ImageStock</a>
         </div>
         <div class="nav-links">
             <div onclick="openSearchBlock('box-search'); return false">
@@ -22,8 +21,8 @@
                 <a href="#">Поиск</a>
             </div>
             <div>
-                <a href="favorites.html"><img src="resourses/icons/favorite_24px.png" alt=""></a>
-                <a href="favorites.html">Избранное</a>
+                <a href="#"><img src="resourses/icons/favorite_24px.png" alt=""></a>
+                <a href="#">Избранное</a>
             </div>
             <div onclick="openHistoryBlock('box-history'); return false">
                 <a href="#"><img src="resourses/icons/history_24px.png" alt=""></a>
@@ -33,7 +32,7 @@
 
     </nav>
 
-    <div id="box-search" style="display: block">
+    <div id="box-search">
         <div id="block-search" class="slideDown">
             <div style="display: flex; justify-content: center">
                 <input type="text" placeholder="Поиск">
@@ -88,10 +87,13 @@
         </div>
     </div>
 
+    <div class="favorites-header"><h2>Избранное</h2></div>
+
     <div class="content-icons">
         <img src="resourses/icons/Group%2011(not%20active).png" alt="">
         <img src="resourses/icons/Group%2010(active).png" alt="">
     </div>
+
     <div class="content">
         <div class="gallery-column">
             <div class="holder">
@@ -256,8 +258,6 @@
             </div>
         </div>
     </div>
-
-    <div class="loading-icon"><img src="resourses/icons/loading.png" alt=""></div>
 
     <script src="script.js"></script>
 </body>
